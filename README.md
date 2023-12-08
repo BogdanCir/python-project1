@@ -1,21 +1,20 @@
-# python-project1
+Key Features:
+  
+Book and Client Management:
+  -Creation, modification, and deletion of book and client records.
+  -Search functionality for both books and clients for quick and easy access to information.
+Book Rental and Return:
+  -Seamless functionality for book rental and return, ensuring an organized and user-friendly borrowing process.
+Reports:
+  -Generation of reports, including:
+    -Most rented books.
+    -Clients with rented books, sorted by name or by the number of rented books.
+    -Top 20% of the most active clients, showcasing client names and the number of rented books.
 
-Write an application for a library.
-The application stores:
-  1. books: <id>, <title>, <description>, <author>, etc.
-  2. clients: <id>, <name>, <CNP>, etc.
-  
-Create an application that allows:
-  1. Management of the list of books and clients.
-  2. Adding, deleting, modifying the list of books, the list of clients.
-  3. Book search, client search.
-  4. Book rental/return.
-  5. Reports:
-  a. Most rented books.
-  b. Clients with rented books sorted by: name, by the number of rented books.
-  c. Top 20% of most active clients(client name and number of rented books)
-  
-This project implements:
-  1. repository classes that save data to text files.
-  2. tests using the unittest framework.
-  3. Data Transfer Object (DTO)
+Implementation Details:
+Layered Architecture:
+  -Ensured modular and organized codebase, promoting scalability and maintainability.
+Testing:
+  -Employed the unittest framework to conduct thorough testing of the application, ensuring the reliability and accuracy of the implemented features.
+Data Transfer Object (DTO):
+  -Utilized Data Transfer Objects to enhance data integrity and streamline the communication between different components of the system.
